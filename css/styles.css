@@ -205,16 +205,10 @@ h1[class="visually-hidden"] {
 .details {
   padding: 94px 0;
 }
-.details.container {
-  display: flex;
-}
 .description-list {
   display: flex;
 }
-/* .description-li {
-  display: flex;
-  flex-direction: column;
-} */
+
 .description-pre {
   display: flex;
   justify-content: center;
@@ -242,10 +236,7 @@ h1[class="visually-hidden"] {
 }
 
 .description-li {
-  width: 270px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
+  width: 270px; 
   margin-right: var(--typical-margin);
 }
 .description-li:last-child {
@@ -267,13 +258,6 @@ h1[class="visually-hidden"] {
 
 .team-list {
   display: flex;
-}
-
-.team-li {
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 1061px;
 }
 
 .team-li:not(:last-child) {
