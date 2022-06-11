@@ -275,7 +275,7 @@ h1[class="visually-hidden"] {
 }
 .warp-item {
   width: 270px;
-  height: 368px;
+  /* height: 368px; */
   left: 215px;
   top: 1635px;
   text-align: center;
@@ -302,7 +302,33 @@ h1[class="visually-hidden"] {
   font-size: 16px;
   line-height: 1.19;
   color: var(--job-title-color);
+  margin-bottom: var(--typical-margin);
 }
+
+/* soc-icon */
+
+.soc-list {
+  display: flex;
+  justify-content: center;
+}
+.soc-item {
+  margin-left: 10px;
+}
+.soc-item:first-child { margin-left: 0;}
+
+.soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid red;
+  border-radius: 50px;
+  background-color: teal;
+  color: #AFB1B8;
+} 
+
+
 .section-clients {
   padding: 94px 0;
 }
