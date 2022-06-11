@@ -40,12 +40,14 @@ ul {
   margin: 0;
   padding-left: 0;
 }
-button {
-  cursor: pointer;
-}
 a {
   color: currentColor;
 }
+a:focus,
+button:focus {
+  outline: currentColor;
+}
+
 /* Рука-указатель */
 button {
   cursor: pointer;
@@ -300,6 +302,34 @@ h1[class="visually-hidden"] {
   font-size: 16px;
   line-height: 1.19;
   color: var(--job-title-color);
+}
+.section-clients {
+  padding: 94px 0;
+}
+.clients {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+/* ICONS */
+
+.clients-list {
+  display: flex;
+}
+.clients-item:not(:last-child) {
+  margin-right: var(--typical-margin);
+}
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 /* footer */
