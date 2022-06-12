@@ -139,6 +139,8 @@ button {
   color: var(--main-color);
 }
 .header-link {
+  display: flex;
+  align-items: center;
   color: var(--header-link-color);
 }
 .contact-item:not(:first-child) {
