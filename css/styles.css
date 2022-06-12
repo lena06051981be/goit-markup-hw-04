@@ -19,7 +19,7 @@ html {
   color: brown;
 } */
 
-.envelope::before {
+/* .envelope::before {
   content: url(../images/envelope.svg);
   vertical-align: middle;
   margin-right: 10px;
@@ -37,6 +37,15 @@ html {
 .smartphone:hover.smartphone::before,
 .smartphone:focus.smartphone::before {
   content: url(../images/smartphone_hover.svg);
+} */
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--highlight-color);
 }
 
 .container {
