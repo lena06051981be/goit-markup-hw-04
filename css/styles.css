@@ -20,13 +20,13 @@ html {
 } */
 
 .envelope::before {
-  content: url(../images/envelope.svg);  
+  content: url(../images/envelope.svg);
   vertical-align: middle;
   margin-right: 10px;
 }
 .envelope:hover.envelope::before,
 .envelope:focus.envelope::before {
-  content: url(../images/envelope_hover.svg);  
+  content: url(../images/envelope_hover.svg);
 }
 
 .smartphone::before {
@@ -38,7 +38,6 @@ html {
 .smartphone:focus.smartphone::before {
   content: url(../images/smartphone_hover.svg);
 }
-
 
 .container {
   width: 1200px;
@@ -165,6 +164,16 @@ button {
 .main-box {
   background: #2f303a;
   padding: 200px 0;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Hero_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .main {
@@ -175,7 +184,7 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-tittle-color);
-  background: var(--main-background-color);
+  /* background: var(--main-background-color); */
   margin: 0 auto;
   max-width: 696px;
   margin-bottom: 30px;
@@ -400,7 +409,7 @@ h1[class="visually-hidden"] {
   padding: 60px 0;
 }
 .footer .container {
-  display: flex;  
+  display: flex;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
