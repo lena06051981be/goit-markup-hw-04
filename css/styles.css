@@ -139,7 +139,7 @@ button {
   color: var(--header-link-color);
 }
 .contact-item:not(:first-child) {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .header-item-link:hover,
@@ -183,7 +183,7 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--main-tittle-color);  
+  color: var(--main-tittle-color);
   margin: 0 auto;
   max-width: 696px;
   margin-bottom: 30px;
