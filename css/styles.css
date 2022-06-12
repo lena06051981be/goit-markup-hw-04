@@ -28,7 +28,6 @@ html {
 .envelope:focus.envelope::before {
   content: url(../images/envelope_hover.svg);
 }
-
 .smartphone::before {
   content: url(../images/smartphone.svg);
   vertical-align: middle;
@@ -41,11 +40,6 @@ html {
 .header-icon {
   margin-right: 10px;
   fill: currentColor;
-}
-
-.header-link:hover,
-.header-link:focus {
-  color: var(--highlight-color);
 }
 
 .container {
